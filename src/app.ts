@@ -96,3 +96,12 @@
 
 //?Functions
 
+function selamla(mesaj: string, isim?: string = "konuk"): string {
+  // if(!isim) isim= "konuk"
+  return mesaj + " " + isim;
+}
+
+selamla("merhaba", 2024);
+console.log(selamla("merhaba"));
+console.log(selamla("merhaba", "dünya"));
+selamla("merhaba", "dünya", "2024");
