@@ -96,7 +96,7 @@
 
 //?Functions
 
-function selamla(mesaj: string, isim?: string = "konuk"): string {
+function selamla(mesaj: string, isim: string = "konuk"): string {
   // if(!isim) isim= "konuk"
   return mesaj + " " + isim;
 }
