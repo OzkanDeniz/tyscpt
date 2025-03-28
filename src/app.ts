@@ -106,17 +106,28 @@
 
 //?Functions
 
-function selamla(mesaj: string, isim: string = "konuk"): string {
-  // if(!isim) isim= "konuk"
-  return mesaj + " " + isim;
-}
+// function selamla(mesaj: string, isim: string = "konuk"): string {
+//   // if(!isim) isim= "konuk"
+//   return mesaj + " " + isim;
+// }
 
-selamla("merhaba", 2024);
-console.log(selamla("merhaba"));
-console.log(selamla("merhaba", "dünya"));
-selamla("merhaba", "dünya", "2024");
+// selamla("merhaba", 2024);
+// console.log(selamla("merhaba"));
+// console.log(selamla("merhaba", "dünya"));
+// selamla("merhaba", "dünya", "2024");
 
 
 //?Arrow 
 
-let topla =(a:number, b:number):number=>a+b
+// let topla =(a:number, b:number):number=>a+b
+
+//?Functions Overloading
+
+function add(a:string, b:string):string
+
+function add(a:number, b:number):number
+
+function add(a:any, b:any): any{
+  return a + b
+}
+
