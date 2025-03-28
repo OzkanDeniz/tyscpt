@@ -3,6 +3,7 @@
 //!tsc --init (tscompiler nasıl davranacığını ve ts.config dosyamız oluşur)
 //!src ve out ik dosya açılır (ts.config dosyasından target=ES6, outDir="./out", rootDir="./src")
 //!src içine app.ts aç (terminale tsc -w komutu uygula)
+//!app.js'i index.html'e bağla
 // console.log("S02")
 //?Union Type
 // let a: string | number = 0.325;
