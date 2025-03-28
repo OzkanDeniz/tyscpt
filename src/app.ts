@@ -1,3 +1,13 @@
+//!npm init -y (Proje başlatmak için komut)
+//!npm i -D typescript (devdependies typescript yüklüyoruz)
+//!tsc --init (tscompiler nasıl davranacığını ve ts.config dosyamız oluşur)
+//!src ve out ik dosya açılır (ts.config dosyasından target=ES6, outDir="./out", rootDir="./src")
+//!src içine app.ts aç (terminale tsc -w komutu uygula)
+
+
+
+
+
 // console.log("S02")
 
 //?Union Type
@@ -105,3 +115,6 @@ selamla("merhaba", 2024);
 console.log(selamla("merhaba"));
 console.log(selamla("merhaba", "dünya"));
 selamla("merhaba", "dünya", "2024");
+
+
+//?Arrow 
