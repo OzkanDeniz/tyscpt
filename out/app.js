@@ -78,3 +78,4 @@ console.log(selamla("merhaba"));
 console.log(selamla("merhaba", "dünya"));
 selamla("merhaba", "dünya", "2024");
 //?Arrow 
+let topla = (a, b) => a + b;

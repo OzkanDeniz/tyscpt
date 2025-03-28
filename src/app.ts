@@ -118,3 +118,5 @@ selamla("merhaba", "dünya", "2024");
 
 
 //?Arrow 
+
+let topla =(a:number, b:number):number=>a+b
