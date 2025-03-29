@@ -4,6 +4,4 @@
 //!src ve out ik dosya açılır (ts.config dosyasından target=ES6, outDir="./out", rootDir="./src")
 //!src içine app.ts aç (terminale tsc -w komutu uygula)
 //!app.js'i index.html'e bağla
-function add(a, b) {
-    return a + b;
-}
+const red = { color: { r: 255, g: 0, b: 0 } };

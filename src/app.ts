@@ -123,11 +123,34 @@
 
 //?Functions Overloading
 
-function add(a:string, b:string):string
+// function add(a:string, b:string):string
 
-function add(a:number, b:number):number
+// function add(a:number, b:number):number
 
-function add(a:any, b:any): any{
-  return a + b
+// function add(a:any, b:any): any{
+//   return a + b
+// }
+
+//?Functions Rest Parameters
+
+// function add(num:number, ...numbers:number[]):void{
+//   let total = num
+
+//   numbers.forEach(number=>total+=number)
+//   console.log(total)
+// }
+
+// add(1)
+// add(1,2,3)
+// add(1,2,3,4)
+
+
+
+//?Interfaces
+
+interface Color {
+    color:{r:number, g: number, b:number}
 }
+
+const red:Color = {color:{r:255, g: 0, b:0}}
 
